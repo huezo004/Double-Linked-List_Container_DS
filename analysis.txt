@@ -1,0 +1,23 @@
+Worst case for reverse():
+O(N) 
+We are going trough the whole list and inserting 
+
+void List<T>::reverse(){
+    List lc = *this;
+    erase(begin(), end());
+     for(iterator nl = lc.begin(); nl !=lc.end(); nl++)
+           push_front(*)
+}
+
+
+Worst case for remove_if():
+O(N)
+
+We are going trough the whole list. 
+
+void List<T>::remove_if(PREDICATE pred){
+for(iterator itr =begin(); itr!= end(); ++itr){
+      if(pred(*itr))
+          erase(itr);
+	}
+}
